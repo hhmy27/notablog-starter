@@ -30,7 +30,7 @@
           - name: Deploy
             uses: JamesIves/github-pages-deploy-action@v4.2.5
             with:
-              token: ${{ secrets.ACCESS_TOKEN }}
+              token: ${{ secrets.notion_blog }}
               repository-name: hhmy27/hhmy27.github.io # 修改这里
               BRANCH: master  # 如果你的仓库默认分支是 master 记得修改这里                    
               FOLDER: public
